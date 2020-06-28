@@ -5,9 +5,7 @@ def inssort(array):
     while j>=1:
       if array[j]<array[j-1]:#comparison of previous elements
       #swapping of elements
-        temp=array[j]
-        array[j]=array[j-1]
-        array[j-1]=temp
+        array[j],array[j-1]=array[j-1],array[j]
       j-=1#decreementing the index
   print('The Sorted Array is:')
   for i in array:
