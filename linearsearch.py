@@ -1,4 +1,4 @@
-'''Program to demonstrate Shell Sort'''
+'''Program to demonstrate Linear Search'''
 def lsearch(array,search):
   for element in array:
     if element==search:#comparison of element with element to be searched
