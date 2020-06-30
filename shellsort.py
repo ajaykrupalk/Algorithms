@@ -2,7 +2,7 @@
 def shsort(array,n):
   gap=n//2#creating a gap
   while gap>0:
-    for i in range(1,n):
+    for i in range(gap,n):
       pos=array[i]
       j=i
       while j>=gap and array[j-gap]>pos:
