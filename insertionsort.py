@@ -1,6 +1,6 @@
 '''Program to demonstrate Insertion Sort'''
 def inssort(array):
-  for i in range(len(array)):
+  for i in range(1,len(array)):
     j=i
     while j>=1:
       if array[j]<array[j-1]:#comparison of previous elements
