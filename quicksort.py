@@ -1,7 +1,7 @@
 '''Program to demonstrate Quick Sort'''
 def partition(a,low,high):
   key=a[low]#taking first element as pivot
-  i=low
+  i=low+1
   j=high
   while i<j:
     while a[i]<=key:
